@@ -23,6 +23,8 @@ function searchCity(event) {
   searchDefault(city);
 }
 
+searchDefault("Brussel");
+
 // showing current date and time in the app
 function currentDate(date) {
   let currentHr = date.getHours();
