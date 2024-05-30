@@ -4,7 +4,7 @@ function displayResult(response) {
   currentCity.innerHTML = `${response.data.city}`;
   let temperature = Math.round(response.data.temperature.current);
   let currentTemperature = document.querySelector("#display-current-temp");
-  currentTemperature.innerHTML = `${temperature}`;
+  currentTemperature.innerHTML = temperature;
 }
 
 // API with the search default value of the city
